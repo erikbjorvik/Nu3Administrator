@@ -1,0 +1,95 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    Model = Nu3.Models.User;
+}
+
+<h2>Users</h2>
+
+<div class="row" style="margin-bottom:20px">
+    <div class="col-md-6">
+        <button type="button" class="btn btn-success">
+            <span class="glyphicon glyphicon-plus" aria-hidden="true"></span> Add user
+        </button>
+    </div>
+    <div class="col-md-6" style="text-align:right">
+        <input type="text" class="form-control" placeholder="Search for user" style="display:inline">
+        <button class="btn btn-default" type="button">Search</button>
+    </div>
+</div>
+
+<table class="table">
+    <tr>
+        <th>Id</th>
+        <th>Surname</th>
+        <th>Firstname</th>
+        <th>Risk category</th>
+        <th>Edit</th>
+        <th>Reports</th>
+    </tr>
+
+    <tr>
+        <td>
+            260491 48973
+        </td>
+        <td>
+            Bjørvik
+        </td>
+        <td>
+            Erik
+        </td>
+        <td>
+            <span class="label label-danger">Low energy consumation</span>
+        </td>
+        <td>
+            <a href="#"><span class="glyphicon glyphicon-edit" aria-hidden="true"></span></a>
+        </td>
+        <td>
+            <a href="#">See reports</a>
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            260491 48973
+        </td>
+        <td>
+            Bjørvik
+        </td>
+        <td>
+            Erik
+        </td>
+        <td>
+            <span class="label label-success">Balanced consumption</span>
+        </td>
+        <td>
+            <a href="#"><span class="glyphicon glyphicon-edit" aria-hidden="true"></span></a>
+        </td>
+        <td>
+            <a href="#">See reports</a>
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            260491 48973
+        </td>
+        <td>
+            Bjørvik
+        </td>
+        <td>
+            Erik
+        </td>
+        <td>
+            <span class="label label-default">Inactive</span>
+        </td>
+        <td>
+            <a href="#"><span class="glyphicon glyphicon-edit" aria-hidden="true"></span></a>
+        </td>
+        <td>
+            <a href="#">See reports</a>
+        </td>
+    </tr>
+
+
+</table>

@@ -1,0 +1,44 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Consumables</h2>
+
+<div class="row" style="margin-bottom:20px">
+    <div class="col-md-6">
+        <button type="button" class="btn btn-success">
+            <span class="glyphicon glyphicon-plus" aria-hidden="true"></span> Add consumable
+        </button>
+    </div>
+    <div class="col-md-6" style="text-align:right">
+            <input type="text" class="form-control" placeholder="Search for consumable" style="display:inline">
+            <button class="btn btn-default" type="button">Search</button>
+    </div>
+</div>
+
+<table class="table">
+    <tr>
+        <th>Name</th>
+        <th>Type</th>
+        <th>Category</th>
+        <th>Edit</th>
+    </tr>
+
+    <tr>
+        <td>
+            Kvikk lunsj
+        </td>
+        <td>
+            Food
+        </td>
+        <td>
+            Snack
+        </td>
+        <td>
+           <a href="#"><span class="glyphicon glyphicon-edit" aria-hidden="true"></span></a>
+        </td>
+    </tr>
+
+
+</table>
